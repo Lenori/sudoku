@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.section`
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
 `;

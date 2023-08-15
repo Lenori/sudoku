@@ -1,3 +1,3 @@
 export interface HomePropTypes {
-    message: string;
+  message: string;
 }

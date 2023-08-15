@@ -1,3 +1,3 @@
 export interface EmptyComponentPropTypes {
-    message: string;
+  message: string;
 }

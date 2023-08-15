@@ -12,13 +12,16 @@ export default createGlobalStyle`
         --light-grey: #999999;
     }
 
-    body {
+    html {
         font-family: 'Ubuntu', sans-serif;
         font-size: 62.5%;
-        background-color: #F3F5F8;
-        border: none;
 
         color: var(--dark-grey);
+    }
+
+    body {
+        background-color: #F3F5F8;
+        border: none;
     }
 
     a {        
