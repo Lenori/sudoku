@@ -2,7 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+`;
+
+export const BoxContainer = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50rem;
 `;
